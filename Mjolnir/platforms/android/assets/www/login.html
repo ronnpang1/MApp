@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="format-detection" content="telephone=no" />
+        <meta name="msapplication-tap-highlight" content="no" />
+        <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+        <link rel="stylesheet" type="text/css" href="css/login.css" />
+        <script type="text/javascript" src="js/libs/jquery/jquery-2.1.1.js"></script>
+        <title>Mjolnir</title>
+    </head>
+    <body>
+        <div id="deviceready">
+            <div id="login_container">
+                <form id="form_login">
+                    <input id="form_login_username" name="form_login_username" type="text" placeholder="username"><br>
+                    <input id="form_login_password" name="form_login_password" type="password" placeholder="password"><br>
+                    <input id="form_login_submit" name="form_login_submit" type="button" value="Login"><br>
+                    <a id="login_p_register" onclick="goTo_register">Register</a>
+                </form>
+            </div>
+            <div id="register_container" style="display:none">
+                register div
+            </div>
+        </div>
+       <script type="text/javascript" src="cordova.js"></script>            
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/validate.js"></script>
+    </body>
+</html>
