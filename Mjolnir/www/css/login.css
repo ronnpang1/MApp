@@ -1,20 +1,15 @@
 body {
-    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
-    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
-    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
-    background-color:#E4E4E4;
-    background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-ms-linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
-    background-image:-webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        color-stop(0, #A7A7A7),
-        color-stop(0.51, #E4E4E4)
-    );
+   -webkit-touch-callout: none;                
+    /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             
+    /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                 
+    /* prevent copy paste, to allow, change 'none' to 'text'*/
     background-attachment:fixed;
-    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+  /*  font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;
+    font-size:12px;
+    background-attachment:fixed;
+    font-family:'HelveticaNeue-Light', 'HelveticaNeue', Helvetica, Arial, sans-serif;*/
     font-size:30px;
     height:100%;
     margin:0px;
@@ -25,18 +20,40 @@ body {
 }
 #login_container{
     position:absolute;
-    align-content:center;
-    margin-left:25%;
-    margin-top:50%;
-    width:225px;
-    width:50px;
+    margin-left:0px;
+    margin-top:0;
+    width:100%;
+    width:100%;
 }
 #form_login {
-    margin:auto;
+   
 }
 #form_login_username, #form_login_password {
-    width:70%;
-    margin-left:auto;
-    margin-right:auto;
+    width:44%;
+    height:5%;
+    margin-left:24%;
+    margin-right:24%;
     margin-bottom:6px;
+    padding:1%;
+    font-size:20px;
+    border-width:1%;
+    border-color:#373787;
+    color:#373787;
+    border-style: solid;
+    border-radius:1%;
+    
+}
+#form_login_submit{
+    width:46%;
+    height:3%;
+    margin-left:24%;
+    margin-right:24%;
+    font-size:25px;
+    padding:1%;
+    border-radius:1%;
+    border-width:1%; 
+    background-color:#4747B0;
+    border-color:#4747B0;
+    color:white;
+    border-style: solid;
 }
