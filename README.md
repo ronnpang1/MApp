@@ -1,5 +1,5 @@
 Google Drive Documents:
-email:mjolnirapp@gmail.com
+mjolnirapp@gmail.com,
 password: thorshammer
 
 ##Repository for App Project:
