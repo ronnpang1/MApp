@@ -1,3 +1,7 @@
+Google Drive Documents:
+email:mjolnirapp@gmail.com
+password: thorshammer
+
 ##Repository for App Project:
 * Mjolnir directory contains app
 * server directory contains node.js server stuff
