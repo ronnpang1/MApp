@@ -2,6 +2,8 @@ Google Drive Documents:
 mjolnirapp@gmail.com,
 password: thorshammer
 
+Naming conventions: https://docs.google.com/spreadsheets/d/1iM4D-_SVRyFAiYLEiE2B60hrVGfhorb1ZOQ4IKKOfBc/edit?usp=sharing
+
 ##Repository for App Project:
 * Mjolnir directory contains app
 * server directory contains node.js server stuff
